@@ -3,6 +3,7 @@ _chunk*.py
 
 # Lokale Claude Code-Einstellungen (benutzerspezifisch)
 .claude/
+CLAUDE.md
 
 # Windows-Artefakte
 nul
