@@ -1,0 +1,17 @@
+# Hilfsskripte zum Aufteilen großer Dateien (nicht Teil des Projekts)
+_chunk*.py
+
+# Lokale Claude Code-Einstellungen (benutzerspezifisch)
+.claude/
+
+# Windows-Artefakte
+nul
+Thumbs.db
+desktop.ini
+
+# macOS-Artefakte
+.DS_Store
+
+# Editor-Verzeichnisse
+.vscode/
+.idea/
