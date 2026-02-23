@@ -82,7 +82,7 @@ const APP_DATA = {
           'Prozess über Menschen stellen: Agile Regeln sind Hilfsmittel keine Gesetze \u2013 Ziel ist funktionierende Software'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Software Development Process', url: '#/devprocess/agile-scrum' },
+          { title: 'DevCraft Pro: Software Development Process', url: 'https://mwidauer.github.io/DevCraft/#/devprocess/agile-scrum' },
           { title: 'Agile Manifest (de)', url: 'https://agilemanifesto.org/iso/de/manifesto.html' }
         ]
       }
@@ -165,8 +165,8 @@ damit [Nutzen/Ziel].
           'Zu viele Aufgaben auf einmal: Claude macht 5 Dinge gleichzeitig oft schlechter als 5 Dinge nacheinander'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Anforderungen & User Stories', url: '#/devprocess/requirements' },
-          { title: 'DevCraft Pro: Code Review Kultur', url: '#/devprocess/code-review' }
+          { title: 'DevCraft Pro: Anforderungen & User Stories', url: 'https://mwidauer.github.io/DevCraft/#/devprocess/requirements' },
+          { title: 'DevCraft Pro: Code Review Kultur', url: 'https://mwidauer.github.io/DevCraft/#/devprocess/code-review' }
         ]
       }
     }
@@ -251,7 +251,7 @@ damit [Nutzen/Ziel].
           '"git push --force" ohne zu verstehen was es tut \u2013 kann Commits anderer Personen dauerhaft löschen'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Git & GitHub', url: '#/git/grundlagen' },
+          { title: 'DevCraft Pro: Git & GitHub', url: 'https://mwidauer.github.io/DevCraft/#/git/grundlagen' },
           { title: 'Git \u2013 offizielles Buch (de)', url: 'https://git-scm.com/book/de/v2' }
         ]
       }
@@ -345,8 +345,8 @@ git restore .
           '"git reset --hard" falsch verstehen: Dieser Befehl löscht alle uncommitteten Änderungen unwiderruflich'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Git Workflows', url: '#/git/workflows' },
-          { title: 'DevCraft Pro: GitHub Actions', url: '#/cicd/github-actions' },
+          { title: 'DevCraft Pro: Git Workflows', url: 'https://mwidauer.github.io/DevCraft/#/git/workflows' },
+          { title: 'DevCraft Pro: GitHub Actions', url: 'https://mwidauer.github.io/DevCraft/#/cicd/github-actions' },
           { title: 'GitHub Docs: Erste Schritte (de)', url: 'https://docs.github.com/de/get-started' }
         ]
       }
@@ -426,8 +426,8 @@ git restore .
           '"Das baue ich später um": Schlechte Architektur früh zu ignorieren macht spätere Änderungen teurer'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Software-Architektur', url: '#/architecture/grundlagen' },
-          { title: 'DevCraft Pro: APIs & Integration', url: '#/apis/rest-apis' }
+          { title: 'DevCraft Pro: Software-Architektur', url: 'https://mwidauer.github.io/DevCraft/#/architecture/grundlagen' },
+          { title: 'DevCraft Pro: APIs & Integration', url: 'https://mwidauer.github.io/DevCraft/#/apis/rest-apis' }
         ]
       }
     },
@@ -510,8 +510,8 @@ Frontend --(REST API)--> Backend --(SQL)--> Datenbank
           'Frontend-Logik im Backend oder umgekehrt: Diese Vermischung ist der häufigste Einsteigerfehler'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Software-Architektur Patterns', url: '#/architecture/patterns' },
-          { title: 'DevCraft Pro: APIs & Integration', url: '#/apis/rest-apis' }
+          { title: 'DevCraft Pro: Software-Architektur Patterns', url: 'https://mwidauer.github.io/DevCraft/#/architecture/patterns' },
+          { title: 'DevCraft Pro: APIs & Integration', url: 'https://mwidauer.github.io/DevCraft/#/apis/rest-apis' }
         ]
       }
     }
@@ -585,8 +585,8 @@ E2E Tests:          5-10% aller Tests`
           'Tests nach dem Code schreiben als lästige Pflicht: Besser wäre Tests zu schreiben während man den Code versteht'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Testing & Qualität', url: '#/testing/grundlagen' },
-          { title: 'DevCraft Pro: CI/CD Pipelines', url: '#/cicd/grundlagen' }
+          { title: 'DevCraft Pro: Testing & Qualität', url: 'https://mwidauer.github.io/DevCraft/#/testing/grundlagen' },
+          { title: 'DevCraft Pro: CI/CD Pipelines', url: 'https://mwidauer.github.io/DevCraft/#/cicd/grundlagen' }
         ]
       }
     },
@@ -689,8 +689,8 @@ describe('berechneRabatt', () => {
           'Nach dem Refactoring die Tests vergessen: Wenn Claude Code umstrukturiert müssen Tests danach noch grün sein'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Testing Grundlagen', url: '#/testing/grundlagen' },
-          { title: 'DevCraft Pro: CI/CD Pipelines', url: '#/cicd/grundlagen' }
+          { title: 'DevCraft Pro: Testing Grundlagen', url: 'https://mwidauer.github.io/DevCraft/#/testing/grundlagen' },
+          { title: 'DevCraft Pro: CI/CD Pipelines', url: 'https://mwidauer.github.io/DevCraft/#/cicd/grundlagen' }
         ]
       }
     }
@@ -764,8 +764,8 @@ RICHTIG – API-Key in Umgebungsvariable:
           'Zu weitreichende Rechte für API-Keys: Erstelle Keys nur mit den Rechten die wirklich benötigt werden'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Security & Authentifizierung', url: '#/security/grundlagen' },
-          { title: 'DevCraft Pro: APIs & Integration', url: '#/apis/authentication' }
+          { title: 'DevCraft Pro: Security & Authentifizierung', url: 'https://mwidauer.github.io/DevCraft/#/security/grundlagen' },
+          { title: 'DevCraft Pro: APIs & Integration', url: 'https://mwidauer.github.io/DevCraft/#/apis/authentication' }
         ]
       }
     },
@@ -854,8 +854,8 @@ console.log('API-Key geladen:', openaiKey.substring(0, 8) + '...');`
           'Entwicklungs-Keys in Produktion nutzen: Immer separate Keys für jede Umgebung'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Security Grundlagen', url: '#/security/grundlagen' },
-          { title: 'DevCraft Pro: Fehlerbehandlung & Logging', url: '#/errorhandling/logging' }
+          { title: 'DevCraft Pro: Security Grundlagen', url: 'https://mwidauer.github.io/DevCraft/#/security/grundlagen' },
+          { title: 'DevCraft Pro: Fehlerbehandlung & Logging', url: 'https://mwidauer.github.io/DevCraft/#/errorhandling/logging' }
         ]
       }
     }
@@ -927,7 +927,7 @@ Isolation: komplett            Isolation: Prozess-Level`
           'Docker ersetzt keine Orchestrierung \u2013 für mehrere Container in Produktion braucht man Docker Compose oder Kubernetes'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Docker & Container', url: '#/docker/grundlagen' },
+          { title: 'DevCraft Pro: Docker & Container', url: 'https://mwidauer.github.io/DevCraft/#/docker/grundlagen' },
           { title: 'Docker: Get Started (offiziell, en)', url: 'https://docs.docker.com/get-started/' }
         ]
       }
@@ -1024,8 +1024,8 @@ CMD ["node", "index.js"]`
           'Umgebungsvariablen (API-Keys Passwörter) gehören nie ins Dockerfile \u2013 nutze -e Flags oder .env-Dateien'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Docker Grundlagen', url: '#/docker/grundlagen' },
-          { title: 'DevCraft Pro: Docker Compose', url: '#/docker/compose' },
+          { title: 'DevCraft Pro: Docker Grundlagen', url: 'https://mwidauer.github.io/DevCraft/#/docker/grundlagen' },
+          { title: 'DevCraft Pro: Docker Compose', url: 'https://mwidauer.github.io/DevCraft/#/docker/compose' },
           { title: 'Docker Best Practices (offiziell, en)', url: 'https://docs.docker.com/develop/develop-images/dockerfile_best-practices/' }
         ]
       }
@@ -1112,7 +1112,7 @@ schreiben         │
           'Keine Rollback-Strategie: Wenn ein Deploy fehlschlägt muss man schnell auf die letzte Version zurückkehren können'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: CI/CD Pipelines', url: '#/cicd/grundlagen' },
+          { title: 'DevCraft Pro: CI/CD Pipelines', url: 'https://mwidauer.github.io/DevCraft/#/cicd/grundlagen' },
           { title: 'GitHub Actions Dokumentation (en)', url: 'https://docs.github.com/en/actions' }
         ]
       }
@@ -1221,8 +1221,8 @@ jobs:
           'Auf jeden Push reagieren ohne Einschränkung \u2013 besser auf spezifische Branches triggern'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: GitHub Actions', url: '#/cicd/github-actions' },
-          { title: 'DevCraft Pro: Testing Grundlagen', url: '#/testing/grundlagen' },
+          { title: 'DevCraft Pro: GitHub Actions', url: 'https://mwidauer.github.io/DevCraft/#/cicd/github-actions' },
+          { title: 'DevCraft Pro: Testing Grundlagen', url: 'https://mwidauer.github.io/DevCraft/#/testing/grundlagen' },
           { title: 'GitHub Actions Schnellstart (de)', url: 'https://docs.github.com/de/actions/writing-workflows/quickstart' }
         ]
       }
@@ -1302,8 +1302,8 @@ Beispiele: PostgreSQL, MySQL`
           'Passwörter im Klartext: In der Datenbank gehört immer nur der Hash \u2013 nie das echte Passwort'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Datenbanken', url: '#/databases/grundlagen' },
-          { title: 'DevCraft Pro: APIs & Integration', url: '#/apis/rest-apis' }
+          { title: 'DevCraft Pro: Datenbanken', url: 'https://mwidauer.github.io/DevCraft/#/databases/grundlagen' },
+          { title: 'DevCraft Pro: APIs & Integration', url: 'https://mwidauer.github.io/DevCraft/#/apis/rest-apis' }
         ]
       }
     },
@@ -1410,8 +1410,8 @@ model Bestellung {
           'Zu breite Spaltentypen: String für eine Zahl \u2013 falsche Typen machen Abfragen fehleranfällig'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Datenbanken & SQL', url: '#/databases/sql-grundlagen' },
-          { title: 'DevCraft Pro: APIs & Integration', url: '#/apis/rest-apis' }
+          { title: 'DevCraft Pro: Datenbanken & SQL', url: 'https://mwidauer.github.io/DevCraft/#/databases/sql-grundlagen' },
+          { title: 'DevCraft Pro: APIs & Integration', url: 'https://mwidauer.github.io/DevCraft/#/apis/rest-apis' }
         ]
       }
     }
@@ -1493,8 +1493,8 @@ HTTP Status Codes:
           'Rate Limits vergessen: Die meisten APIs begrenzen die Anfragen pro Minute \u2013 zu viele Anfragen führen zu Fehlern'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: APIs & Integration', url: '#/apis/rest-apis' },
-          { title: 'DevCraft Pro: Security & Auth', url: '#/security/grundlagen' }
+          { title: 'DevCraft Pro: APIs & Integration', url: 'https://mwidauer.github.io/DevCraft/#/apis/rest-apis' },
+          { title: 'DevCraft Pro: Security & Auth', url: 'https://mwidauer.github.io/DevCraft/#/security/grundlagen' }
         ]
       }
     },
@@ -1599,8 +1599,8 @@ async function holeBenutzerdaten(benutzerId) {
           'Rate Limits ignorieren: Zu viele Anfragen \u2013 Antwort ist 429 Too Many Requests'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: REST APIs', url: '#/apis/rest-apis' },
-          { title: 'DevCraft Pro: Security & Auth', url: '#/security/grundlagen' }
+          { title: 'DevCraft Pro: REST APIs', url: 'https://mwidauer.github.io/DevCraft/#/apis/rest-apis' },
+          { title: 'DevCraft Pro: Security & Auth', url: 'https://mwidauer.github.io/DevCraft/#/security/grundlagen' }
         ]
       }
     }
@@ -1677,8 +1677,8 @@ async function holeBenutzerdaten(benutzerId) {
           'Logs nie anschauen: Logs aufzuzeichnen ohne sie je zu lesen ist nutzlos \u2013 regelmäßig reinschauen'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Monitoring & Observability', url: '#/monitoring/grundlagen' },
-          { title: 'DevCraft Pro: Fehlerbehandlung & Logging', url: '#/errorhandling/logging' }
+          { title: 'DevCraft Pro: Monitoring & Observability', url: 'https://mwidauer.github.io/DevCraft/#/monitoring/grundlagen' },
+          { title: 'DevCraft Pro: Fehlerbehandlung & Logging', url: 'https://mwidauer.github.io/DevCraft/#/errorhandling/logging' }
         ]
       }
     },
@@ -1776,8 +1776,8 @@ module.exports = logger;`
           'Keine Fehler-Logs in catch: try-catch ohne logger.error macht Fehler unsichtbar'
         ],
         furtherReading: [
-          { title: 'DevCraft Pro: Monitoring & Observability', url: '#/monitoring/grundlagen' },
-          { title: 'DevCraft Pro: Fehlerbehandlung & Logging', url: '#/errorhandling/logging' }
+          { title: 'DevCraft Pro: Monitoring & Observability', url: 'https://mwidauer.github.io/DevCraft/#/monitoring/grundlagen' },
+          { title: 'DevCraft Pro: Fehlerbehandlung & Logging', url: 'https://mwidauer.github.io/DevCraft/#/errorhandling/logging' }
         ]
       }
     }
@@ -1850,7 +1850,7 @@ Alle Bausteine zusammen = produktives Vibe-Coding`
         ],
         furtherReading: [
           { title: 'Cursor \u2013 offizielle Dokumentation (en)', url: 'https://docs.cursor.com' },
-          { title: 'DevCraft Pro: Tooling', url: '#/tooling/mental-model' }
+          { title: 'DevCraft Pro: Tooling', url: 'https://mwidauer.github.io/DevCraft/#/tooling/mental-model' }
         ]
       }
     },
@@ -1940,7 +1940,7 @@ cursor /pfad/zu/deinem/projekt
         ],
         furtherReading: [
           { title: 'Cursor Quickstart Guide (en)', url: 'https://docs.cursor.com/get-started/migrate-from-vscode' },
-          { title: 'DevCraft Pro: Tooling', url: '#/tooling/erster-schritt' }
+          { title: 'DevCraft Pro: Tooling', url: 'https://mwidauer.github.io/DevCraft/#/tooling/erster-schritt' }
         ]
       }
     }
@@ -2028,7 +2028,7 @@ cursor /pfad/zu/deinem/projekt
         ],
         furtherReading: [
           { title: 'MDN: Fehlerbehandlung in JavaScript (de)', url: 'https://developer.mozilla.org/de/docs/Web/JavaScript/Guide/Control_flow_and_error_handling' },
-          { title: 'DevCraft Pro: Fehlerbehandlung', url: '#/errorhandling/mental-model' }
+          { title: 'DevCraft Pro: Fehlerbehandlung', url: 'https://mwidauer.github.io/DevCraft/#/errorhandling/mental-model' }
         ]
       }
     },
@@ -2126,7 +2126,7 @@ async function datenLaden(userId) {
         ],
         furtherReading: [
           { title: 'JavaScript Error-Typen Übersicht (en)', url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors' },
-          { title: 'DevCraft Pro: Fehlerbehandlung', url: '#/errorhandling/erster-schritt' }
+          { title: 'DevCraft Pro: Fehlerbehandlung', url: 'https://mwidauer.github.io/DevCraft/#/errorhandling/erster-schritt' }
         ]
       }
     }
@@ -2211,7 +2211,7 @@ async function datenLaden(userId) {
         ],
         furtherReading: [
           { title: 'web.dev: Performance-Grundlagen (en)', url: 'https://web.dev/performance/' },
-          { title: 'DevCraft Pro: Performance', url: '#/performance/mental-model' }
+          { title: 'DevCraft Pro: Performance', url: 'https://mwidauer.github.io/DevCraft/#/performance/mental-model' }
         ]
       }
     },
@@ -2296,7 +2296,7 @@ console.log('Operation dauerte:', dauer.toFixed(2), 'ms');
         ],
         furtherReading: [
           { title: 'Chrome DevTools Performance Tutorial (en)', url: 'https://developer.chrome.com/docs/devtools/performance/' },
-          { title: 'DevCraft Pro: Performance', url: '#/performance/erster-schritt' }
+          { title: 'DevCraft Pro: Performance', url: 'https://mwidauer.github.io/DevCraft/#/performance/erster-schritt' }
         ]
       }
     }
@@ -2374,7 +2374,7 @@ console.log('Operation dauerte:', dauer.toFixed(2), 'ms');
         ],
         furtherReading: [
           { title: 'Make a README \u2013 interaktiver Generator (en)', url: 'https://www.makeareadme.com/' },
-          { title: 'DevCraft Pro: Dokumentation', url: '#/documentation/mental-model' }
+          { title: 'DevCraft Pro: Dokumentation', url: 'https://mwidauer.github.io/DevCraft/#/documentation/mental-model' }
         ]
       }
     },
@@ -2474,7 +2474,7 @@ src/
         ],
         furtherReading: [
           { title: 'Make a README \u2013 interaktiver Generator (en)', url: 'https://www.makeareadme.com/' },
-          { title: 'DevCraft Pro: Dokumentation', url: '#/documentation/erster-schritt' }
+          { title: 'DevCraft Pro: Dokumentation', url: 'https://mwidauer.github.io/DevCraft/#/documentation/erster-schritt' }
         ]
       }
     }
@@ -2553,7 +2553,7 @@ src/
         ],
         furtherReading: [
           { title: 'Anthropic Prompt Engineering Guide (en)', url: 'https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview' },
-          { title: 'DevCraft Pro: Prompt Engineering', url: '#/promptengineering/mental-model' }
+          { title: 'DevCraft Pro: Prompt Engineering', url: 'https://mwidauer.github.io/DevCraft/#/promptengineering/mental-model' }
         ]
       }
     },
@@ -2652,7 +2652,7 @@ Fehlermeldungen. Maximal 40 Zeilen. (Constraints)"
         ],
         furtherReading: [
           { title: 'Anthropic: Effektive Prompts (en)', url: 'https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview' },
-          { title: 'DevCraft Pro: Prompt Engineering', url: '#/promptengineering/erster-schritt' }
+          { title: 'DevCraft Pro: Prompt Engineering', url: 'https://mwidauer.github.io/DevCraft/#/promptengineering/erster-schritt' }
         ]
       }
     }
