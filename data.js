@@ -1325,7 +1325,7 @@ Beispiele: PostgreSQL, MySQL`
         { name: 'TablePlus', purpose: 'Grafische Datenbank-Oberfläche \u2013 zeigt Tabellen und Daten übersichtlich an' }
       ],
       commands: [
-        { cmd: 'SELECT * FROM nutzer WHERE email = 'anna@beispiel.de';', desc: 'Liest alle Daten des Nutzers mit dieser E-Mail-Adresse' },
+        { cmd: "SELECT * FROM nutzer WHERE email = 'anna@beispiel.de';", desc: 'Liest alle Daten des Nutzers mit dieser E-Mail-Adresse' },
         { cmd: 'npx prisma migrate dev', desc: 'Führt ausstehende Datenbank-Migrationen aus (wenn Prisma genutzt wird)' }
       ],
       deepDive: null
