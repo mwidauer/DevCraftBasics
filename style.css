@@ -129,7 +129,7 @@ button {
   flex-shrink: 0;
 }
 .brand:hover { color: var(--brand-hover); }
-.brand-logo { width: 32px; height: 32px; color: var(--brand); }
+.brand-logo { width: 32px; height: 32px; color: #22c55e; }
 .brand-name {
   font-size: 1.1rem;
   font-weight: 700;
